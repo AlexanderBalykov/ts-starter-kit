@@ -1,0 +1,15 @@
+.lightbox {
+    width: 150px;
+    height: 10em;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightgray;
+
+    &.light {
+        background: yellow;
+    }
+
+}
+

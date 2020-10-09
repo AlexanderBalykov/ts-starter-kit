@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <style>
+        #modal-root {
+            position: absolute;
+            top:0;
+            left:0;
+            width: 0;
+            height: 0;
+            z-index: 10;
+        }
+        #info-root {
+            position: absolute;
+            top:0;
+            left:0;
+            width: 0;
+            height: 0;
+            z-index: 20;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="root"></div>
+    <div id="modal-root"></div>
+    <div id="info-root"></div>
+</body>
+</html>
